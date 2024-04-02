@@ -32,9 +32,9 @@ header>h1 {
     font-family: var(--fonte-destaque)
 }
 
-p {}
 
 header>p {
+    font-size: 1em;
     font-family: var(--fonte-link);
     color: var(--cor0);
     text-align: center;
@@ -114,6 +114,24 @@ footer>p>a:hover {
 }
 
 @media (max-width: 600px) {
+    header>h1 {
+        padding-top: 50px;
+        font-variant: small-caps;
+        font-weight: 900;
+        font-size: 11vw;
+        text-align: center;
+        color: var(--cor0);
+        font-family: var(--fonte-destaque)
+    }
+    header>p {
+        font-size: 1.1em;
+        font-family: var(--fonte-link);
+        color: var(--cor0);
+        text-align: center;
+        padding-bottom: 50px;
+    
+    }
+
     section.imagem#img1 {
         background-position: right top;
         background-attachment: fixed;
