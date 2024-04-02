@@ -19,7 +19,7 @@
 
 header {
     background-color: var(--cor1);
-    
+
 }
 
 header>h1 {
@@ -32,31 +32,32 @@ header>h1 {
     font-family: var(--fonte-destaque)
 }
 
-p {
-    
-}
+p {}
 
 header>p {
     font-family: var(--fonte-link);
     color: var(--cor0);
     text-align: center;
     padding-bottom: 50px;
-    
+
 }
-header > p > a {
+
+header>p>a {
     text-decoration: none;
     font-family: var(--fonte-link);
     color: var(--cor0);
     font-weight: bold;
-    
+
 }
 
 header>p>a:hover {
     text-decoration: underline;
 }
-section > p{
+
+section>p {
     padding-bottom: 10vh;
 }
+
 
 section {
     line-height: 2em;
@@ -66,38 +67,42 @@ section {
     font-family: var(--fonte-padrao);
     font-weight: 600;
     font-style: italic;
-    
+
 }
+
 section.imagem#img1 {
     background-attachment: fixed;
     background-size: cover;
     background-image: url('img/background001.jpg');
 }
-section.imagem > p{
+
+section.imagem>p {
     text-shadow: 2px 2px 12px #000000a6;
     color: #FFF;
     display: inline-block;
     background-color: #00000034;
 }
+
 section.imagem#img2 {
     background-attachment: fixed;
     background-size: cover;
     background-image: url('img/background002.jpg');
 }
-footer{
+
+footer {
     width: 98vw;
     background-color: var(--cor1);
 }
 
-footer>p
- {
+footer>p {
     font-family: var(--fonte-link);
     padding: 10px;
     font-size: 1.2em;
     text-align: center;
     color: var(--cor0);
 }
-footer > p > a {
+
+footer>p>a {
     font-family: var(--fonte-link);
     text-align: center;
     text-decoration: none;
@@ -113,5 +118,25 @@ footer>p>a:hover {
         background-position: right top;
         background-attachment: fixed;
         background-size: cover;
+    }
+
+    section.container {
+        line-height: 2em;
+        padding: 5vh 0vh 0vh 20px;
+        font-size: 6vw;
+        color: var(--cor1);
+        font-family: var(--fonte-padrao);
+        font-weight: 600;
+        font-style: italic;
+
+    }
+    section.imagem > p {
+        line-height: 2em;
+        padding: 0;
+        font-size: 6vw;
+        color: var(--cor0);
+        font-family: var(--fonte-padrao);
+        font-weight: 600;
+        font-style: italic;
     }
 }
